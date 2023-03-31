@@ -1,0 +1,17 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>"Real Time" Case alerts building Web apps with ASP.NET Core and SignalR.</p>
+</div>
+
+<div class="table-responsive">
+    <table id="table-case-alert"></table>
+</div>
+
+@section Scripts{
+    <script src="~/lib/microsoft/signalr/dist/browser/signalr.js"></script>
+    <script src="~/js/connection-case-alert.js"></script>
+}

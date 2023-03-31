@@ -1,10 +1,11 @@
 "use strict";
 
 const analyst = prompt('Informe seu nome de analista');
+
 $('#btn-analyst').text(analyst);
 
 const connection = new signalR.HubConnectionBuilder()
-    .withUrl('https://localhost:7289/case-alerts', {
+    .withUrl('https://localhost:32772/case-alerts', {
         skipNegotiation: true,
         transport: signalR.HttpTransportType.WebSockets
     }).build();
@@ -59,10 +60,7 @@ $('#table-case-alert').bootstrapTable({
     ]
 })
 
-
 function StartInvestigation(id) {
-
-    console.log(id);
 
     let command = {
         analyst: analyst

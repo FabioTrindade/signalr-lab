@@ -1,5 +1,6 @@
 C:\Users\fabio.trindade\source\repos\estudo\signalr-lab\signalr-client\bin\Debug\net6.0\appsettings.Development.json
 C:\Users\fabio.trindade\source\repos\estudo\signalr-lab\signalr-client\bin\Debug\net6.0\appsettings.json
+C:\Users\fabio.trindade\source\repos\estudo\signalr-lab\signalr-client\bin\Debug\net6.0\libman.json
 C:\Users\fabio.trindade\source\repos\estudo\signalr-lab\signalr-client\bin\Debug\net6.0\signalr-client.staticwebassets.runtime.json
 C:\Users\fabio.trindade\source\repos\estudo\signalr-lab\signalr-client\bin\Debug\net6.0\signalr-client.exe
 C:\Users\fabio.trindade\source\repos\estudo\signalr-lab\signalr-client\bin\Debug\net6.0\signalr-client.deps.json
@@ -29,4 +30,3 @@ C:\Users\fabio.trindade\source\repos\estudo\signalr-lab\signalr-client\obj\Debug
 C:\Users\fabio.trindade\source\repos\estudo\signalr-lab\signalr-client\obj\Debug\net6.0\signalr-client.pdb
 C:\Users\fabio.trindade\source\repos\estudo\signalr-lab\signalr-client\obj\Debug\net6.0\signalr-client.genruntimeconfig.cache
 C:\Users\fabio.trindade\source\repos\estudo\signalr-lab\signalr-client\obj\Debug\net6.0\ref\signalr-client.dll
-C:\Users\fabio.trindade\source\repos\estudo\signalr-lab\signalr-client\bin\Debug\net6.0\libman.json

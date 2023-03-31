@@ -12,7 +12,7 @@ function SendRequest(method, url, responseType, params, callbackSuccess, callbac
         url: url,
         method: (!method ? 'GET' : method),
         responseType: (!responseType ? 'JSON' : responseType),
-        params: params
+        params: (!params ? '' : params)
     }).then(function (response) {
         if (callbackSuccess)
             return callbackSuccess(response)

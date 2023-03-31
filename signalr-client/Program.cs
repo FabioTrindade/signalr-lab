@@ -1,3 +1,6 @@
+using Microsoft.Extensions.Configuration;
+using signalr_client.Models;
+
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddCors(options =>
@@ -10,6 +13,12 @@ builder.Services.AddCors(options =>
                 .AllowCredentials()
                 .SetIsOriginAllowed((hosts) => true));
 });
+
+// Add functionality to inject IOptions<T>
+builder.Services.AddOptions();
+
+// Add our Config object so it can be injected
+builder.Services.Configure<HubSettings>(options => builder.Configuration.GetSection(nameof(HubSettings)).Bind(options));
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
